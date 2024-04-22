@@ -37,6 +37,16 @@ files = [
 ]
 
 [[package]]
+name = "cowsay"
+version = "6.1"
+description = "The famous cowsay for GNU/Linux is now available for python"
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "cowsay-6.1-py3-none-any.whl", hash = "sha256:274b1e6fc1b966d53976333eb90ac94cb07a450a700b455af9fbdf882244b30a"},
+]
+
+[[package]]
 name = "exceptiongroup"
 version = "1.2.1"
 description = "Backport of PEP 654 (exception groups)"
@@ -259,4 +269,4 @@ watchdog = ["watchdog (>=2.3)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "6c53eae91273d2ff1d22c8a69b5643da35dfd46b13bfd90fe71cf6cd7828f5da"
+content-hash = "0b158ca5ea372d184cf1875ae81e7266ef6b42291d582719e4914d1440369a49"
